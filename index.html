@@ -1,0 +1,36 @@
+<html>
+<meta charset="UTF-8" />
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/main.js"></script>
+    <title>Prueba del LocalStorage</title>
+
+</head>
+
+<body onload="cargarContactos()">
+    <div class="box">
+        <div class="fila">
+            <span class="label">Nombre</span>
+            <input type="text" class="texto" id="txtNombre" />
+        </div>
+        <div class="fila">
+            <span class="label">Apellido</span>
+            <input type="text" class="texto" id="txtApellido" />
+        </div>
+        <div class="fila">
+            <span class="label">Teléfono</span>
+            <input type="text" class="texto" id="txtTelefono" />
+        </div>
+        <div class="filaBoton">
+            <button class="boton" onclick="guardar()">Guardar</button>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="contenedorContactos" id="listado"></div>
+    </div>
+
+</body>
+
+</html>

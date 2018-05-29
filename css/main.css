@@ -1,0 +1,53 @@
+.box{
+    background: aliceblue;
+    border-radius: 16px;
+    padding: 30px;
+    margin: 20px;
+    font-family: fantasy;
+}
+
+.fila{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.texto{
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.filaBoton{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.boton{
+    align-self: center;
+    padding: 16px;
+    font-size: 17px;
+    border-radius: 12px;
+}
+
+.contenedorContactos{
+    border: 1px gray solid;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.filaContacto{
+    margin-top: 10px;
+    border: 1px gray dashed;
+    margin-bottom: 10px;
+}
+.llave{   
+    padding-right: 10px;
+}
+
+.valor{
+    font-style: italic;
+}
